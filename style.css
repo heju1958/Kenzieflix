@@ -1,0 +1,74 @@
+main {
+    background-color: black;
+    color: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: sans-serif;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+.botao {
+    width: 100%;
+    text-align: center;
+    margin: 40px 0;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 10px;
+    font-family: sans-serif;
+    border: 1.5px solid; 
+    border-radius: 6px;  
+}
+
+button:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.imagemperfil {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+figure {
+    overflow: hidden;
+}
+
+.nome {
+    font-size: 12px;
+    margin: 20px;
+    color: darkgrey;
+    }
+
+.boxMain {
+    flex-wrap: wrap;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.boxItem {
+    flex-direction: column;
+    background-color: black;
+    border-radius: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
